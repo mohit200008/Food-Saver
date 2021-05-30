@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Creativity.css'
+import './Creativity.scss'
 
 export class Creativity extends Component {
     render() {

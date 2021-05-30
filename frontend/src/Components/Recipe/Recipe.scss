@@ -37,10 +37,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #d3d3d3; */
+  background-color: #d3d3d3;
   border-radius: 0.5rem;
   margin-bottom: 5rem;
-  /* box-shadow: 1rem 2rem 5rem #aaa; */
+  box-shadow: 1rem 2rem 5rem #aaa;
   position: relative;
 }
 
@@ -60,7 +60,6 @@ h1 {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  box-shadow: 1rem 2rem 5rem #aaa;
 }
 
 .search-form input {

@@ -35,7 +35,7 @@
     position: relative;
     top: -12.6rem;
     font-weight: normal;
-    color: white;
+    color: rgb(15, 2, 2);
 }
 
 .food-page-expiration-count-container {
@@ -52,9 +52,8 @@
 .expiration-message {
     font-size: 1.5rem;
     margin: 0;
-    margin-bottom: .5rem;
+    margin-bottom: 2.5rem;
     font-weight: normal;
-    margin-top: 20px;
 }
 
 .waste-message {
@@ -109,8 +108,4 @@
     margin: 0;
     font-weight: normal;
     margin-top: .5rem;
-}
-
-.food-box{
-
 }

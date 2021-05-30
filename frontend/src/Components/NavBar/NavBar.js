@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import './NavBar.css'
+import './NavBar.scss'
 
 const NavBar = ({ logOut }) => {
     return (
@@ -12,8 +12,8 @@ const NavBar = ({ logOut }) => {
                     <NavLink className='link' to='/'>Home</NavLink>
                     <NavLink className='link' to='/food'>Add Food</NavLink>
                     <NavLink className='link' to='/recipepage'>Recipe</NavLink>
-                    <NavLink className='link' to='/creativity'>Share</NavLink>
-                    <NavLink className='link' to='/' style={{color: "#00ff00"}}>अ/Aa</NavLink>
+                    <NavLink className='link' to='/creativity'>Creativity</NavLink>
+                    <NavLink className='link' to='/hi' style={{color: "#00ff00"}}>अ/Aa</NavLink>
                 </span>
             </div>
         </div>

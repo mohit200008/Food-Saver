@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Chatbot.css";
+import "./Chatbot.scss";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 import { useHistory } from "react-router-dom";
@@ -132,6 +132,18 @@ const steps = [
   },
 ];
 
+function BMI({ steps }) {
+  return (
+    <div>
+      Your BMI is{" "}
+      {(
+        (steps.BMIWeight.value /
+          (steps.BMIHeight.value * steps.BMIHeight.value)) *
+        10000
+      ).toFixed(2)}
+    </div>
+  );
+}
 
 function FunFact() {
   const randInt = Math.floor(Math.random() * 14);
