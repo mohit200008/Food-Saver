@@ -67,7 +67,7 @@ Required to install and run the software:
 
 ## Installing and Running
 
-From the project folder, run these commands in console (terminal) to install dependencies and run the app:
+From the project folder , run these commands in console (terminal) to install dependencies and run the app:
 ```
 1. npm install
 2. npm run dev
